@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 80vw;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.navbar {
+    display: flex;
+    height: 67px;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 0 12px;
+}
+
+/* Change the color of links on hover */
+.navbar li:hover {
+    background-color: rgb(215, 205, 222);
+    color: black;
+}
+
+
+.topleft {
+    width: 50%;
+    background-color: black;
+}
+
+.topright {
+    width: 50%;
+    padding-bottom: 23px;
+}
+
+.section1 {
+    max-height: 100vh;
+}
+
+.section1 h1 {
+    font-size: 2rem;
+}
+
+.logo {
+    font-size: 3rem;
+}
+
+.topleft .capm{
+    width: 100%;
+}
+.section2 {
+    padding: 73px;
+    text-align: center;
+}
+
+.section2 h1 {
+    font-size: 2rem;
+}
+
+.section2 p {
+    padding: 0 8vw;
+}
+
+.box {
+    padding: 8px 0px;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.box ul {
+    list-style-type: none;
+}
+
+.box h2 {
+    font-size: 1.5rem;
+    padding: 12px 0;
+}
+
+.box ul li {
+    margin: 12px 2px;
+}
+
+.highlighted {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.plantable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table {
+    width: 100%;
+    margin-top: 20px 0;
+    margin-bottom: 140px 0;
+    border-collapse: collapse;
+}
+
+.section3 table th {
+    width: 23vw;
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+}
+
+.section3 table td {
+    border-bottom: 2px solid black;
+}
+
+.section3 h1 {
+    font-size: 2rem;
+}
+
+.section3 {
+    padding: 73px;
+}
+
+footer {
+    padding: 23px;
+    text-align: center;
+}
